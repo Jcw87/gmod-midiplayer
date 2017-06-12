@@ -1,4 +1,8 @@
 {
 	"title"		:	"MIDI Player",
-	"type"		:	"tool"
+	"type"		:	"tool",
+	"ignore"	:
+	[
+		"*.md"
+	]
 }
