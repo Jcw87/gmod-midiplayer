@@ -60,7 +60,7 @@ local function CPanel(cpanel)
 	
 	cpanel:Help("Load midi from a file.")
 	
-	local browser = vgui.Create("DFileBrowser_Midi", cpanel)
+	local browser = vgui.Create("DFileBrowser", cpanel)
 	browser:Dock(TOP)
 	browser:DockPadding(10, 10, 10, 0)
 	browser:SetMinimumSize(100, 200)
