@@ -384,6 +384,7 @@ if type(io) == "table" and type(io.open) == "function" then
 	end
 elseif type(file) == "table" and type(file.Open) == "function" and AddCSLuaFile then
 	-- Garry's Mod
+	AddCSLuaFile()
 	function open(fname, mode)
 		local f = file.Open(fname, mode, "DATA")
 		if not f then f = file.Open(fname, mode, "GAME") end
